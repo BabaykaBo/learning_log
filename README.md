@@ -16,12 +16,15 @@ This is my first Django project. It is the Django-based web application for the 
 * whitenoise==6.2.0
 
 You can install these using ***pip install -r requirements.txt***
+
 P.S. Some dependencies are required for using PostgreSql and Heroku deployment. So, if you use another database or deployment platform, Some dependencies may be not actual.
 
 ## Running:
 ### Manually
 After cloning this repo, create the database: ***python3 manage.py migrate***
+
 And then create admin account by running: ***python3 manage.py createsuperuser***
+
 Then you should be able to run the server.
 
 ## Features:
